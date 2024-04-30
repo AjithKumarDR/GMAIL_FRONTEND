@@ -1,0 +1,76 @@
+.card{
+    margin: auto;
+    width: 45%;
+    padding: 25px;
+    margin-top: 10%;
+}
+.loginHeader{
+    text-align: center;
+}
+.textsign{
+text-align: left;
+}
+img{
+width: 50%;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+.btns{
+    text-align: right;
+}
+button{
+    padding: 25px;
+}
+@media only screen and (max-width:600px) {
+    .card{
+        
+        width: 100%;
+    }
+}
+.emailList__sections {
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid whitesmoke;
+    z-index: 999;
+  }
+  .emailsection:hover {
+    background-color: #ddd;
+    border-width: 3px;
+  }
+  
+.emailsection h4 {
+    font-size: 14px;
+    margin-left: 15px;
+  }
+
+  .emailsection {
+    display: flex;
+    align-items: center;
+    border-bottom-width: 2px;
+    padding: 15px;
+    min-width: 200px;
+    cursor: pointer;
+    color: grey;
+    border-width: 0;
+  }
+  .section__selected {
+    background-color: whitesmoke;
+    border-width: 3px;
+    color: #0b57d0;
+    border-bottom: 3px solid #0b57d0;
+    
+  }
+.pl18{
+
+width: 35px !important;
+}
+
+#popover-basic{
+text-align: center !important;
+padding: 10px;
+}

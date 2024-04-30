@@ -1,0 +1,22 @@
+.Glogo{
+    width: 80px;
+}
+.sigup{
+    padding: 150px;
+    margin: 1px;
+}
+.userinput{
+    padding: 20px;
+}
+
+.loginWrapper{
+    margin: 10%;
+}
+
+.fullWidthDatePicker .react-datepicker-wrapper {
+    width: 100%; /* Set width to 100% */
+  }
+  
+  .fullWidthDatePicker .react-datepicker__input-container input {
+    width: 100%; /* Set width to 100% */
+  }

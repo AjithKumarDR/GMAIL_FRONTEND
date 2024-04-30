@@ -1,0 +1,65 @@
+ 
+ /* *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+} 
+body{
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}  */
+.Containerloading{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width:600px;
+            height:600px;
+            border-radius: 50%;
+            animation: containerFadeIn 0s linear infinite
+}
+        @keyframes containerFadeIn {
+            0%{ opacity: 0; background-color: #ededed;}
+            30%{ opacity: 1; background-color: #fff;}
+}
+.Containerloading .imgBox{
+            width:350px;
+            height:350px;
+}
+.Containerloading .imgBox img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+}
+.Containerloading .progressBar{
+            position: relative;
+            width:320px;
+}
+.Containerloading .progressBar span{
+            position:absolute;
+            width:0;
+            height:5px;
+            background-color: #e74f4b;
+            animation: progressBar 10s linear infinite
+}
+@keyframes progressBar {
+            0%{ width:0; opacity:0}
+            30%{ width:0; opacity:1 }
+            50%{ width:30%;}
+            80%{ width:100%}
+            100%{ width:100% }
+}
+.Containerloading .titleBox{
+            font-size: 2em;
+            font-weight: 100;
+            padding-top:20px;
+            animation: titleFadeIn 10s linear infinite
+}
+@keyframes titleFadeIn {
+            0%{ opacity:0 }
+            50%, 100%{ font-weight: 400; opacity:1}
+}
+    
