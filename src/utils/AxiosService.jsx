@@ -1,7 +1,8 @@
 import axios from 'axios'
 
 const AxiosService = axios.create({
-    baseURL:"https://gmail-backend-wxdr.onrender.com",
+     baseURL:"https://gmail-backend-wxdr.onrender.com",
+    //baseURL:"http://localhost:8000/",
     headers:{
         "Content-Type":"application/json"
     }
